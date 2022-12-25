@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8329BCE6-C233-4BB8-A8A3-3CB2BFD6C650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notifier", "notifier", "{20F6D142-9903-4E47-B61B-C7FF66BEA88D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "notifier", "src\notifier\src\notifier.csproj", "{98D866BD-EED6-4FF0-BEA1-2C300D574A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{CEEA8FE0-E27E-4C76-8113-E00758DD3CC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "notifierclient", "src\client\src\notifierclient.csproj", "{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D866BD-EED6-4FF0-BEA1-2C300D574A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D866BD-EED6-4FF0-BEA1-2C300D574A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D866BD-EED6-4FF0-BEA1-2C300D574A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D866BD-EED6-4FF0-BEA1-2C300D574A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20F6D142-9903-4E47-B61B-C7FF66BEA88D} = {8329BCE6-C233-4BB8-A8A3-3CB2BFD6C650}
+		{98D866BD-EED6-4FF0-BEA1-2C300D574A3B} = {20F6D142-9903-4E47-B61B-C7FF66BEA88D}
+		{CEEA8FE0-E27E-4C76-8113-E00758DD3CC5} = {8329BCE6-C233-4BB8-A8A3-3CB2BFD6C650}
+		{C32EFA8C-A5D1-4E7D-BD0E-32E02385B8D2} = {CEEA8FE0-E27E-4C76-8113-E00758DD3CC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEFD76CA-03B3-4A73-816C-6B1EB49E4AE8}
+	EndGlobalSection
+EndGlobal

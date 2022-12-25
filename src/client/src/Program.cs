@@ -1,33 +1,4 @@
-
-# Notifier Library
-
-A library for sending notifications.
-
-
-
-
-
-
-## 🔗 Links
-[Github Notifier library](https://github.com/Shashi738/notifier/tree/dev_notifier)
-
-
-
-## Notifier library uses below design patterns
-
-- Mediator design pattern
-- Factory method design pattern
-- Strategy design pattern
-
-The Notifier mediator abstracts direct communication between client and Notify handlers. So that both can vary independently of one another.
-
-The Notifier mediator uses NotifyHandlerFactory to get the relevant notify handler based on the inpur request.
-
-Notify handlers are implemented using the strategy design pattern.
-
-## Usage/Examples
-
-```
+﻿// See https://aka.ms/new-console-template for more information
 using notifier;
 
 Console.WriteLine("notifier library usage");
@@ -62,5 +33,6 @@ catch (Exception ex)
 {
     Console.WriteLine($"notification send failed - {ex.ToString()}");
 }
-```
+
+
 
